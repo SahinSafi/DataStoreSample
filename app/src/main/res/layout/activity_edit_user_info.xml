@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EditUserInfoActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/userNameIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/userEmailIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="User Email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userEmailET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/userPhoneIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="User Phone">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userPhoneET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/blue"
+        android:text="Save"
+        android:textSize="18sp"/>
+</LinearLayout>
